@@ -9,7 +9,7 @@
     "math",
     "katex"
   ],
-  "homepage": "https://github.com/talyssonoc/react-katex",
+  "homepage": "https://github.com/bbsmp/react-katex",
   "main": "dist/react-katex-bbsmp.js",
   "scripts": {
     "build": "npm run build-normal && npm run build-mini",
