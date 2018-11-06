@@ -4,10 +4,10 @@ import uglify from 'rollup-plugin-uglify';
 const minify = !!process.env.MINIFY;
 
 const plugins = [babel()];
-let dest = 'dist/react-katex.js';
+let dest = 'dist/react-katex-bbsmp.js';
 
 if(minify) {
-  dest = 'dist/react-katex.min.js';
+  dest = 'dist/react-katex-bbsmp.min.js';
   plugins.push(uglify());
 }
 

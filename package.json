@@ -1,6 +1,6 @@
 {
   "name": "react-katex-bbsmp",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Display math in TeX with KaTeX and ReactJS,forked from https://github.com/talyssonoc/react-katex",
   "keywords": [
     "react",
@@ -21,8 +21,8 @@
     "prepublish": "npm run build"
   },
   "author": {
-    "name": "Talysson",
-    "email": "talyssonoc@gmail.com"
+    "name": "bbsmp",
+    "email": "qinmetec@163.com"
   },
   "repository": {
     "type": "git",

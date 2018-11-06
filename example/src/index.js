@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import 'katex/dist/katex.min.css';
-import { BlockMath, InlineMath } from 'react-katex';
+import { BlockMath, InlineMath } from 'react-katex-bbsmp';
 
 const ExamplePage = () => (
   <div
@@ -21,13 +21,13 @@ const ExamplePage = () => (
     </h2>
     This is an in-line expression <InlineMath math={'\\int_0^\\infty x^2 dx'} />{' '}
     passed as <code>math prop</code>. This is an in-line{' '}
-    <InlineMath math={'\\int_0^\\infty x^2 dx'} /> expression passed as{' '}
+    <InlineMath math={'\\int_0^\\infty， x^2 dx'} /> expression passed as{' '}
     <code>children prop</code>.
     <h2>
       <code>{'<BlockMath />'}</code>
     </h2>
     <BlockMath math={'\\int_0^\\infty x^2 dx'} />
-    <BlockMath>{`A =
+    <BlockMath>{`已知A =
         \\begin{pmatrix}
         1 & 0 & 0 \\\\
         0 & 1 & 0 \\\\
