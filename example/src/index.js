@@ -21,13 +21,13 @@ const ExamplePage = () => (
     </h2>
     This is an in-line expression <InlineMath math={'\\int_0^\\infty x^2 dx'} />{' '}
     passed as <code>math prop</code>. This is an in-line{' '}
-    <InlineMath math={'\\int_0^\\infty， x^2 dx'} /> expression passed as{' '}
+    <InlineMath math={'\\int_0^\\inftyz x^2 dx'} /> expression passed as{' '}
     <code>children prop</code>.
     <h2>
       <code>{'<BlockMath />'}</code>
     </h2>
     <BlockMath math={'\\int_0^\\infty x^2 dx'} />
-    <BlockMath>{`已知A =
+    <BlockMath>{`A =
         \\begin{pmatrix}
         1 & 0 & 0 \\\\
         0 & 1 & 0 \\\\
