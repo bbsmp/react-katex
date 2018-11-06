@@ -1,7 +1,7 @@
 {
-  "name": "react-katex",
-  "version": "2.0.2",
-  "description": "Display math in TeX with KaTeX and ReactJS",
+  "name": "react-katex-bbsmp",
+  "version": "0.0.1",
+  "description": "Display math in TeX with KaTeX and ReactJS,forked from https://github.com/talyssonoc/react-katex",
   "keywords": [
     "react",
     "tex",
@@ -10,7 +10,7 @@
     "katex"
   ],
   "homepage": "https://github.com/talyssonoc/react-katex",
-  "main": "dist/react-katex.js",
+  "main": "dist/react-katex-bbsmp.js",
   "scripts": {
     "build": "npm run build-normal && npm run build-mini",
     "build-normal": "rollup -c --environment NODE_ENV:production",
@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/talyssonoc/react-katex.git"
+    "url": "https://github.com/bbsmp/react-katex.git"
   },
   "bugs": {
-    "url": "https://github.com/talyssonoc/react-katex/issues"
+    "url": "https://github.com/bbsmp/react-katex/issues"
   },
   "license": "MIT",
   "peerDependencies": {
@@ -64,6 +64,6 @@
     "instrument": false
   },
   "dependencies": {
-    "katex": "^0.9.0"
+    "katex": "^0.10.0"
   }
 }
