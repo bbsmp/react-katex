@@ -1,6 +1,6 @@
 {
   "name": "react-katex-bbsmp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Display math in TeX with KaTeX and ReactJS,forked from https://github.com/talyssonoc/react-katex",
   "keywords": [
     "react",
@@ -64,6 +64,6 @@
     "instrument": false
   },
   "dependencies": {
-    "katex": "^0.10.0"
+    "katex": "^0.10.1"
   }
 }
